@@ -1,0 +1,9 @@
+<section class="py-1 text-center container">
+  <h1>New Book</h1>
+  <div class="container">
+    <%= link_to 'Back', books_path %>
+  </div>
+</section>
+<div class="form-group">
+  <%= render 'form', book: @book %>
+</div>
